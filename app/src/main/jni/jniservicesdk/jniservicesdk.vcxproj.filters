@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\Android.mk" />
+    <None Include="..\Application.mk" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\libservicesdk\AndroidAcceptor.cpp" />
+    <ClCompile Include="..\libservicesdk\ClientServiceSDK.cpp" />
+    <ClCompile Include="..\libservicesdk\com_oray_sunlogin_servicesdk_jni_ClientServiceSDK.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\libservicesdk\AndroidAcceptor.h" />
+    <ClInclude Include="..\libservicesdk\ClientServiceSDK.h" />
+    <ClInclude Include="..\libservicesdk\com_oray_sunlogin_servicesdk_jni_ClientServiceSDK.h" />
+  </ItemGroup>
+</Project>

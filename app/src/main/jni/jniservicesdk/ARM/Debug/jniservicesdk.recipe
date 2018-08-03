@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<project>
+  <SOLibPaths>;</SOLibPaths>
+  <AndroidLibPaths />
+  <OObjPaths>F:\oray\c\branches\src\sunlogin\client\android\ScreenCaptureDemo\app\src\main\jni\jniservicesdk\\obj\local\armeabi-v7a</OObjPaths>
+  <Configuration />
+  <Platform />
+  <AndroidArchitecture />
+  <!--links to other recipe files-->
+  <RecipeFiles />
+</project>

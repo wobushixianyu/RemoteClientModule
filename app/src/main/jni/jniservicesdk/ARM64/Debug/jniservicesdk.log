@@ -1,0 +1,36 @@
+﻿Android NDK : warning : F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/Android.mk:orayservice_sdk: non-system libraries in linker flags: -loraycommon
+  Android NDK:     This is likely to result in incorrect builds. Try using LOCAL_STATIC_LIBRARIES    
+  Android NDK:     or LOCAL_SHARED_LIBRARIES instead to list the library dependencies of the    
+  Android NDK:     current module    
+Android NDK : warning : F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libcommon/Android.mk:udp: LOCAL_LDLIBS is always ignored for static libraries
+Android NDK : warning : F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/Android.mk:orayservice_sdk: non-system libraries in linker flags: -loraycommon
+  Android NDK:     This is likely to result in incorrect builds. Try using LOCAL_STATIC_LIBRARIES    
+  Android NDK:     or LOCAL_SHARED_LIBRARIES instead to list the library dependencies of the    
+  Android NDK:     current module    
+Android NDK : warning : F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libcommon/Android.mk:udp: LOCAL_LDLIBS is always ignored for static libraries
+  [armeabi] Install        : liboraycommon.so => libs/armeabi/liboraycommon.so
+  [armeabi] Compile++ thumb: orayservice_sdk <= ClientServiceSDK.cpp
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/./ClientServiceSDK.cpp: In member function 'virtual bool CAcceptorEvent::OnLogFailed()':
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/./ClientServiceSDK.cpp:56:36: warning: invalid conversion from 'int' to 'CONNECTOR_STATE {aka _CONNECTOR_STATE}' [-fpermissive]
+    return 0 == mOuter->OnEvent(100, 0);
+                                      ^
+  In file included from F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/./ClientServiceSDK.cpp:1:0:
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/./ClientServiceSDK.h:96:15: note: initializing argument 1 of 'virtual long int CClientServiceSDK::OnEvent(CONNECTOR_STATE, long int)'
+    virtual long OnEvent(CONNECTOR_STATE state, long hr);
+                 ^
+  [armeabi] SharedLibrary  : liborayservice_sdk.so
+  [armeabi] Install        : liborayservice_sdk.so => libs/armeabi/liborayservice_sdk.so
+  [armeabi] Install        : libgnustl_shared.so => libs/armeabi/libgnustl_shared.so
+  [arm64-v8a] Install        : liboraycommon.so => libs/arm64-v8a/liboraycommon.so
+  [arm64-v8a] Compile++      : orayservice_sdk <= ClientServiceSDK.cpp
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/./ClientServiceSDK.cpp: In member function 'virtual bool CAcceptorEvent::OnLogFailed()':
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/./ClientServiceSDK.cpp:56:36: warning: invalid conversion from 'int' to 'CONNECTOR_STATE {aka _CONNECTOR_STATE}' [-fpermissive]
+    return 0 == mOuter->OnEvent(100, 0);
+                                      ^
+  In file included from F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/./ClientServiceSDK.cpp:1:0:
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/./ClientServiceSDK.h:96:15: note: initializing argument 1 of 'virtual long int CClientServiceSDK::OnEvent(CONNECTOR_STATE, long int)'
+    virtual long OnEvent(CONNECTOR_STATE state, long hr);
+                 ^
+  [arm64-v8a] SharedLibrary  : liborayservice_sdk.so
+  [arm64-v8a] Install        : liborayservice_sdk.so => libs/arm64-v8a/liborayservice_sdk.so
+  [arm64-v8a] Install        : libgnustl_shared.so => libs/arm64-v8a/libgnustl_shared.so

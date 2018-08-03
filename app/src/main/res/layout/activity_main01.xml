@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:id="@+id/aboutLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="请正确输入你的appId和appKey" />
+
+        <EditText
+            android:id="@+id/main_appid_edit"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="6001" />
+
+        <EditText
+            android:id="@+id/main_appkey_edit"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="2a5feb5aeb0b0e7e70cf3f97e77b2584" />
+
+        <TextView
+            android:id="@+id/main_status_textview"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="left"
+            android:text="未连接" />
+        <TextView
+            android:id="@+id/main_info_textview"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="left"
+            android:text=""
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/main_copy_address_button"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:text="复制地址到粘貼板"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/main_copy_session_button"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:text="复制SESSION到粘貼板"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/main_login_button"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:text="开始登录" />
+
+        <Button
+            android:id="@+id/main_createsession_button"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:enabled="false"
+            android:text="创建远程桌面Session" />
+
+        <Button
+            android:id="@+id/main_destroysession_button"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:enabled="false"
+            android:text="销毁当前远程桌面Session" />
+
+        <Button
+            android:id="@+id/main_logout_button"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:enabled="false"
+            android:text="注销当前登录" />
+    </LinearLayout>
+
+</ScrollView>

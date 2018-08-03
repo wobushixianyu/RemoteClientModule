@@ -1,0 +1,490 @@
+﻿Android NDK : warning : F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/Android.mk:orayservice_sdk: non-system libraries in linker flags: -loraycommon
+  Android NDK:     This is likely to result in incorrect builds. Try using LOCAL_STATIC_LIBRARIES    
+  Android NDK:     or LOCAL_SHARED_LIBRARIES instead to list the library dependencies of the    
+  Android NDK:     current module    
+Android NDK : warning : F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libcommon/Android.mk:udp: LOCAL_LDLIBS is always ignored for static libraries
+  [armeabi] Compile++ thumb: oraycommon <= com_oray_sunlogin_jni_JavaCxxObject.cpp
+  [armeabi] Compile++ thumb: oraycommon <= CxxJavaObject.cpp
+  [armeabi] Compile++ thumb: oraycommon <= GlobalDef.cpp
+  [armeabi] Compile++ thumb: oraycommon <= UrlSerializer.cpp
+  [armeabi] Compile++ thumb: oraycommon <= timecnv.cpp
+  [armeabi] Compile++ thumb: oraycommon <= String.cpp
+  [armeabi] Compile++ thumb: oraycommon <= blowfish.cpp
+  [armeabi] Compile++ thumb: oraycommon <= base64.cpp
+  [armeabi] Compile++ thumb: oraycommon <= md5.cpp
+  [armeabi] Compile++ thumb: oraycommon <= md5code.cpp
+  [armeabi] Compile++ thumb: oraycommon <= urlcode.cpp
+  [armeabi] Compile++ thumb: oraycommon <= HttpParser.cpp
+  [armeabi] Compile++ thumb: oraycommon <= flogger.cpp
+  [armeabi] Compile++ thumb: oraycommon <= BaseThread.cpp
+  [armeabi] Compile++ thumb: oraycommon <= mallocins.cpp
+  [armeabi] Compile++ thumb: oraycommon <= BaseStream.cpp
+  [armeabi] Compile++ thumb: oraycommon <= SockStream.cpp
+  [armeabi] Compile++ thumb: oraycommon <= SockConnector.cpp
+  [armeabi] Compile++ thumb: oraycommon <= SockAcceptor.cpp
+  [armeabi] Compile++ thumb: oraycommon <= HttpProxyConnector.cpp
+  [armeabi] Compile++ thumb: oraycommon <= InitSock.cpp
+  [armeabi] Compile++ thumb: oraycommon <= MultiplexHandler.cpp
+  [armeabi] Compile++ thumb: oraycommon <= MultiplexLogicStream.cpp
+  [armeabi] Compile++ thumb: oraycommon <= Proxy.cpp
+  [armeabi] Compile++ thumb: oraycommon <= Socks4ProxyConnector.cpp
+  [armeabi] Compile++ thumb: oraycommon <= Socks5ProxyConnector.cpp
+  [armeabi] Compile++ thumb: oraycommon <= UDPLibStream.cpp
+  [armeabi] Compile++ thumb: oraycommon <= UDPLibWrapper.cpp
+  [armeabi] Compile++ thumb: oraycommon <= WebStream.cpp
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libcommon/../../../../../../../../../common/phstream/WebStream.cpp: In member function 'void CWebStream::OnPayload(IBuffer*)':
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libcommon/../../../../../../../../../common/phstream/WebStream.cpp:262:30: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+     WriteBuffer(payload, 0x1000); //0x1000 is the pong msg mask
+                                ^
+  [armeabi] Compile++ thumb: oraycommon <= SSLStream.cpp
+  In file included from F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libcommon/../../../../../../../../../common/phstream/SSLStream.h:11:0,
+                   from F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libcommon/../../../../../../../../../common/phstream/SSLStream.cpp:4:
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libcommon/../../../../../../../../../../../3rd/polarssl-1.3.9/include/polarssl/compat-1.2.h:53:2: warning: #warning "You can disable these warnings by commenting SHOW_PROTOTYPE_CHANGE_WARNINGS in compat-1.2.h" [-Wcpp]
+   #warning "You can disable these warnings by commenting SHOW_PROTOTYPE_CHANGE_WARNINGS in compat-1.2.h"
+    ^
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libcommon/../../../../../../../../../../../3rd/polarssl-1.3.9/include/polarssl/compat-1.2.h:156:2: warning: #warning "cipher_reset() prototype changed. Manual change required if used" [-Wcpp]
+   #warning "cipher_reset() prototype changed. Manual change required if used"
+    ^
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libcommon/../../../../../../../../../../../3rd/polarssl-1.3.9/include/polarssl/compat-1.2.h:171:2: warning: #warning "rsa_pkcs1_verify() prototype changed. Manual change required if used" [-Wcpp]
+   #warning "rsa_pkcs1_verify() prototype changed. Manual change required if used"
+    ^
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libcommon/../../../../../../../../../../../3rd/polarssl-1.3.9/include/polarssl/compat-1.2.h:172:2: warning: #warning "rsa_pkcs1_decrypt() prototype changed. Manual change required if used" [-Wcpp]
+   #warning "rsa_pkcs1_decrypt() prototype changed. Manual change required if used"
+    ^
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libcommon/../../../../../../../../../../../3rd/polarssl-1.3.9/include/polarssl/compat-1.2.h:178:2: warning: #warning "dhm_calc_secret() prototype changed. Manual change required if used" [-Wcpp]
+   #warning "dhm_calc_secret() prototype changed. Manual change required if used"
+    ^
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libcommon/../../../../../../../../../../../3rd/polarssl-1.3.9/include/polarssl/compat-1.2.h:184:2: warning: #warning "gcm_init() prototype changed. Manual change required if used" [-Wcpp]
+   #warning "gcm_init() prototype changed. Manual change required if used"
+    ^
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libcommon/../../../../../../../../../../../3rd/polarssl-1.3.9/include/polarssl/compat-1.2.h:190:2: warning: #warning "ssl_set_own_cert() prototype changed. Change to ssl_set_own_cert_rsa(). Manual change required if used" [-Wcpp]
+   #warning "ssl_set_own_cert() prototype changed. Change to ssl_set_own_cert_rsa(). Manual change required if used"
+    ^
+  [armeabi] Compile++ thumb: oraycommon <= DetectLocalIP.cpp
+  [armeabi] Compile++ thumb: oraycommon <= ObjectMonitor.cpp
+  [armeabi] Compile++ thumb: oraycommon <= UTF8Code.cpp
+  [armeabi] Compile++ thumb: oraycommon <= gzip_decoder.cpp
+  [armeabi] Compile++ thumb: oraycommon <= oraymsg.cpp
+  [armeabi] Compile++ thumb: oraycommon <= oraymsgclient.cpp
+  [armeabi] Compile++ thumb: oraycommon <= SubScribeClient.cpp
+  [armeabi] Compile++ thumb: oraycommon <= http_call.cpp
+  In file included from F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libcommon/../../../../../../../../../common/libsocket/libsocket.h:30:0,
+                   from F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libcommon/../../../../../../../../../common/http_call/http_call.cpp:9:
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libcommon/../../../../../../../../../../../3rd/polarssl-1.3.9/include/polarssl/compat-1.2.h:53:2: warning: #warning "You can disable these warnings by commenting SHOW_PROTOTYPE_CHANGE_WARNINGS in compat-1.2.h" [-Wcpp]
+   #warning "You can disable these warnings by commenting SHOW_PROTOTYPE_CHANGE_WARNINGS in compat-1.2.h"
+    ^
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libcommon/../../../../../../../../../../../3rd/polarssl-1.3.9/include/polarssl/compat-1.2.h:156:2: warning: #warning "cipher_reset() prototype changed. Manual change required if used" [-Wcpp]
+   #warning "cipher_reset() prototype changed. Manual change required if used"
+    ^
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libcommon/../../../../../../../../../../../3rd/polarssl-1.3.9/include/polarssl/compat-1.2.h:171:2: warning: #warning "rsa_pkcs1_verify() prototype changed. Manual change required if used" [-Wcpp]
+   #warning "rsa_pkcs1_verify() prototype changed. Manual change required if used"
+    ^
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libcommon/../../../../../../../../../../../3rd/polarssl-1.3.9/include/polarssl/compat-1.2.h:172:2: warning: #warning "rsa_pkcs1_decrypt() prototype changed. Manual change required if used" [-Wcpp]
+   #warning "rsa_pkcs1_decrypt() prototype changed. Manual change required if used"
+    ^
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libcommon/../../../../../../../../../../../3rd/polarssl-1.3.9/include/polarssl/compat-1.2.h:178:2: warning: #warning "dhm_calc_secret() prototype changed. Manual change required if used" [-Wcpp]
+   #warning "dhm_calc_secret() prototype changed. Manual change required if used"
+    ^
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libcommon/../../../../../../../../../../../3rd/polarssl-1.3.9/include/polarssl/compat-1.2.h:184:2: warning: #warning "gcm_init() prototype changed. Manual change required if used" [-Wcpp]
+   #warning "gcm_init() prototype changed. Manual change required if used"
+    ^
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libcommon/../../../../../../../../../../../3rd/polarssl-1.3.9/include/polarssl/compat-1.2.h:190:2: warning: #warning "ssl_set_own_cert() prototype changed. Change to ssl_set_own_cert_rsa(). Manual change required if used" [-Wcpp]
+   #warning "ssl_set_own_cert() prototype changed. Change to ssl_set_own_cert_rsa(). Manual change required if used"
+    ^
+  [armeabi] Compile++ thumb: oraycommon <= HttpObject.cpp
+  [armeabi] Compile++ thumb: oraycommon <= urlparser.cpp
+  [armeabi] Compile++ thumb: oraycommon <= format_message.cpp
+  [armeabi] Compile++ thumb: oraycommon <= libsocket.cpp
+  In file included from F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libcommon/../../../../../../../../../common/libsocket/libsocket.h:30:0,
+                   from F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libcommon/../../../../../../../../../common/libsocket/libsocket.cpp:2:
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libcommon/../../../../../../../../../../../3rd/polarssl-1.3.9/include/polarssl/compat-1.2.h:53:2: warning: #warning "You can disable these warnings by commenting SHOW_PROTOTYPE_CHANGE_WARNINGS in compat-1.2.h" [-Wcpp]
+   #warning "You can disable these warnings by commenting SHOW_PROTOTYPE_CHANGE_WARNINGS in compat-1.2.h"
+    ^
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libcommon/../../../../../../../../../../../3rd/polarssl-1.3.9/include/polarssl/compat-1.2.h:156:2: warning: #warning "cipher_reset() prototype changed. Manual change required if used" [-Wcpp]
+   #warning "cipher_reset() prototype changed. Manual change required if used"
+    ^
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libcommon/../../../../../../../../../../../3rd/polarssl-1.3.9/include/polarssl/compat-1.2.h:171:2: warning: #warning "rsa_pkcs1_verify() prototype changed. Manual change required if used" [-Wcpp]
+   #warning "rsa_pkcs1_verify() prototype changed. Manual change required if used"
+    ^
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libcommon/../../../../../../../../../../../3rd/polarssl-1.3.9/include/polarssl/compat-1.2.h:172:2: warning: #warning "rsa_pkcs1_decrypt() prototype changed. Manual change required if used" [-Wcpp]
+   #warning "rsa_pkcs1_decrypt() prototype changed. Manual change required if used"
+    ^
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libcommon/../../../../../../../../../../../3rd/polarssl-1.3.9/include/polarssl/compat-1.2.h:178:2: warning: #warning "dhm_calc_secret() prototype changed. Manual change required if used" [-Wcpp]
+   #warning "dhm_calc_secret() prototype changed. Manual change required if used"
+    ^
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libcommon/../../../../../../../../../../../3rd/polarssl-1.3.9/include/polarssl/compat-1.2.h:184:2: warning: #warning "gcm_init() prototype changed. Manual change required if used" [-Wcpp]
+   #warning "gcm_init() prototype changed. Manual change required if used"
+    ^
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libcommon/../../../../../../../../../../../3rd/polarssl-1.3.9/include/polarssl/compat-1.2.h:190:2: warning: #warning "ssl_set_own_cert() prototype changed. Change to ssl_set_own_cert_rsa(). Manual change required if used" [-Wcpp]
+   #warning "ssl_set_own_cert() prototype changed. Change to ssl_set_own_cert_rsa(). Manual change required if used"
+    ^
+  [armeabi] Compile++ thumb: oraycommon <= timer.cpp
+  [armeabi] Compile++ thumb: oraycommon <= crc_16.cpp
+  [armeabi] Compile++ thumb: oraycommon <= upnpnat.cpp
+  [armeabi] Compile++ thumb: oraycommon <= xmlParser.cpp
+  [armeabi] Compile++ thumb: oraycommon <= o_resolve.cpp
+  [armeabi] Compile++ thumb: oraycommon <= EString.cpp
+  [armeabi] Compile++ thumb: oraycommon <= tinystr.cpp
+  [armeabi] Compile++ thumb: oraycommon <= tinyxml.cpp
+  [armeabi] Compile++ thumb: oraycommon <= tinyxmlerror.cpp
+  [armeabi] Compile++ thumb: oraycommon <= tinyxmlparser.cpp
+  [armeabi] Compile++ thumb: oraycommon <= json_reader.cpp
+  [armeabi] Compile++ thumb: oraycommon <= json_value.cpp
+  [armeabi] Compile++ thumb: oraycommon <= json_writer.cpp
+  [armeabi] Compile++ thumb: oraycommon <= get_proxy_info.cpp
+  [armeabi] Compile++ thumb: oraycommon <= DecideTcpClientType.cpp
+  [armeabi] Compile++ thumb: oraycommon <= PreConnectProxySvrHandler.cpp
+  [armeabi] Compile++ thumb: oraycommon <= ActivePlugin.cpp
+  [armeabi] Compile++ thumb: oraycommon <= LicVerifierRaw.cpp
+  [armeabi] Compile++ thumb: oraycommon <= PluginStreamImplRaw.cpp
+  [armeabi] Compile++ thumb: oraycommon <= DecideMultiChannelClient.cpp
+  [armeabi] Compile++ thumb: oraycommon <= MultiChannelStream.cpp
+  [armeabi] Compile++ thumb: oraycommon <= PluginThreadManager.cpp
+  [armeabi] Compile++ thumb: oraycommon <= sha1.cc
+  [armeabi] Compile++ thumb: oraycommon <= base64.cc
+  [armeabi] Compile++ thumb: udp <= udpstack.cpp
+  [armeabi] Compile++ thumb: udp <= Bigbit.cpp
+  [armeabi] Compile++ thumb: udp <= crypto.cpp
+  [armeabi] Compile++ thumb: udp <= stream.cc
+  [armeabi] Compile++ thumb: udp <= asyncfile.cc
+  [armeabi] Compile++ thumb: udp <= asyncsocket.cc
+  [armeabi] Compile++ thumb: udp <= bytebuffer.cc
+  [armeabi] Compile++ thumb: udp <= common.cc
+  [armeabi] Compile++ thumb: udp <= event.cc
+  [armeabi] Compile++ thumb: udp <= helpers.cc
+  [armeabi] Compile++ thumb: udp <= ipaddress.cc
+  [armeabi] Compile++ thumb: udp <= logging.cc
+  [armeabi] Compile++ thumb: udp <= messagehandler.cc
+  [armeabi] Compile++ thumb: udp <= messagequeue.cc
+  [armeabi] Compile++ thumb: udp <= nethelpers.cc
+  [armeabi] Compile++ thumb: udp <= physicalsocketserver.cc
+  [armeabi] Compile++ thumb: udp <= pseudotcp.cc
+  [armeabi] Compile++ thumb: udp <= signalthread.cc
+  [armeabi] Compile++ thumb: udp <= socketaddress.cc
+  [armeabi] Compile++ thumb: udp <= stringencode.cc
+  [armeabi] Compile++ thumb: udp <= thread.cc
+  [armeabi] Compile++ thumb: udp <= timeutils.cc
+  [armeabi] Compile++ thumb: udp <= timing.cc
+  [armeabi] Compile++ thumb: udp <= linux.cc
+  [armeabi] StaticLibrary  : libudp.a
+  [armeabi] Compile thumb  : polarssl <= aes.c
+  [armeabi] Compile thumb  : polarssl <= aesni.c
+  [armeabi] Compile thumb  : polarssl <= arc4.c
+  [armeabi] Compile thumb  : polarssl <= asn1parse.c
+  [armeabi] Compile thumb  : polarssl <= asn1write.c
+  [armeabi] Compile thumb  : polarssl <= base64.c
+  [armeabi] Compile thumb  : polarssl <= bignum.c
+  [armeabi] Compile thumb  : polarssl <= blowfish.c
+  [armeabi] Compile thumb  : polarssl <= camellia.c
+  [armeabi] Compile thumb  : polarssl <= ccm.c
+  [armeabi] Compile thumb  : polarssl <= certs.c
+  [armeabi] Compile thumb  : polarssl <= cipher.c
+  [armeabi] Compile thumb  : polarssl <= cipher_wrap.c
+  [armeabi] Compile thumb  : polarssl <= ctr_drbg.c
+  [armeabi] Compile thumb  : polarssl <= debug.c
+  [armeabi] Compile thumb  : polarssl <= des.c
+  [armeabi] Compile thumb  : polarssl <= dhm.c
+  [armeabi] Compile thumb  : polarssl <= ecdh.c
+  [armeabi] Compile thumb  : polarssl <= ecdsa.c
+  [armeabi] Compile thumb  : polarssl <= ecp.c
+  [armeabi] Compile thumb  : polarssl <= ecp_curves.c
+  [armeabi] Compile thumb  : polarssl <= entropy.c
+  [armeabi] Compile thumb  : polarssl <= entropy_poll.c
+  [armeabi] Compile thumb  : polarssl <= error.c
+  [armeabi] Compile thumb  : polarssl <= gcm.c
+  [armeabi] Compile thumb  : polarssl <= havege.c
+  [armeabi] Compile thumb  : polarssl <= hmac_drbg.c
+  [armeabi] Compile thumb  : polarssl <= md.c
+  [armeabi] Compile thumb  : polarssl <= md_wrap.c
+  [armeabi] Compile thumb  : polarssl <= md2.c
+  [armeabi] Compile thumb  : polarssl <= md4.c
+  [armeabi] Compile thumb  : polarssl <= md5.c
+  [armeabi] Compile thumb  : polarssl <= memory_buffer_alloc.c
+  [armeabi] Compile thumb  : polarssl <= net.c
+  [armeabi] Compile thumb  : polarssl <= oid.c
+  [armeabi] Compile thumb  : polarssl <= padlock.c
+  [armeabi] Compile thumb  : polarssl <= pbkdf2.c
+  [armeabi] Compile thumb  : polarssl <= pem.c
+  [armeabi] Compile thumb  : polarssl <= pk.c
+  [armeabi] Compile thumb  : polarssl <= pk_wrap.c
+  [armeabi] Compile thumb  : polarssl <= pkcs11.c
+  [armeabi] Compile thumb  : polarssl <= pkcs12.c
+  [armeabi] Compile thumb  : polarssl <= pkcs5.c
+  [armeabi] Compile thumb  : polarssl <= pkparse.c
+  [armeabi] Compile thumb  : polarssl <= pkwrite.c
+  [armeabi] Compile thumb  : polarssl <= platform.c
+  [armeabi] Compile thumb  : polarssl <= ripemd160.c
+  [armeabi] Compile thumb  : polarssl <= rsa.c
+  [armeabi] Compile thumb  : polarssl <= sha1.c
+  [armeabi] Compile thumb  : polarssl <= sha256.c
+  [armeabi] Compile thumb  : polarssl <= sha512.c
+  [armeabi] Compile thumb  : polarssl <= ssl_cache.c
+  [armeabi] Compile thumb  : polarssl <= ssl_ciphersuites.c
+  [armeabi] Compile thumb  : polarssl <= ssl_cli.c
+  [armeabi] Compile thumb  : polarssl <= ssl_srv.c
+  [armeabi] Compile thumb  : polarssl <= ssl_tls.c
+  [armeabi] Compile thumb  : polarssl <= threading.c
+  [armeabi] Compile thumb  : polarssl <= timing.c
+  [armeabi] Compile thumb  : polarssl <= version.c
+  [armeabi] Compile thumb  : polarssl <= version_features.c
+  [armeabi] Compile thumb  : polarssl <= x509.c
+  [armeabi] Compile thumb  : polarssl <= x509_create.c
+  [armeabi] Compile thumb  : polarssl <= x509_crl.c
+  [armeabi] Compile thumb  : polarssl <= x509_crt.c
+  [armeabi] Compile thumb  : polarssl <= x509_csr.c
+  [armeabi] Compile thumb  : polarssl <= x509write_crt.c
+  [armeabi] Compile thumb  : polarssl <= x509write_csr.c
+  [armeabi] Compile thumb  : polarssl <= xtea.c
+  [armeabi] StaticLibrary  : libpolarssl.a
+  [armeabi] SharedLibrary  : liboraycommon.so
+  [armeabi] Install        : liboraycommon.so => libs/armeabi/liboraycommon.so
+  [armeabi] Compile++ thumb: orayservice_sdk <= DesktopServerPluginRaw.cpp
+  [armeabi] Compile++ thumb: orayservice_sdk <= DesktopMsgParser.cpp
+  [armeabi] Compile++ thumb: orayservice_sdk <= LocalControlStream.cpp
+  [armeabi] Compile++ thumb: orayservice_sdk <= PluginEntity.cpp
+  [armeabi] Compile++ thumb: orayservice_sdk <= ipc_base.cpp
+  [armeabi] Compile++ thumb: orayservice_sdk <= PHSocket.cpp
+  [armeabi] Compile++ thumb: orayservice_sdk <= InputAgentClient_android.cpp
+  [armeabi] Compile++ thumb: orayservice_sdk <= ScreenAgentClient_android.cpp
+  [armeabi] Compile thumb  : orayservice_sdk <= android_localsockets.c
+  [armeabi] Compile++ thumb: orayservice_sdk <= ipc_android.cpp
+  [armeabi] Compile++ thumb: orayservice_sdk <= MessageLoopThreadRaw.cpp
+  [armeabi] Compile++ thumb: orayservice_sdk <= get_proxy_info.cpp
+  [armeabi] Compile++ thumb: orayservice_sdk <= ActivePlugin.cpp
+  [armeabi] Compile++ thumb: orayservice_sdk <= LicVerifierRaw.cpp
+  [armeabi] Compile++ thumb: orayservice_sdk <= PluginStreamImplRaw.cpp
+  [armeabi] Compile++ thumb: orayservice_sdk <= DecideMultiChannelClient.cpp
+  [armeabi] Compile++ thumb: orayservice_sdk <= DecideTcpClientType.cpp
+  [armeabi] Compile++ thumb: orayservice_sdk <= MultiChannelStream.cpp
+  [armeabi] Compile++ thumb: orayservice_sdk <= PluginThreadManager.cpp
+  [armeabi] Compile++ thumb: orayservice_sdk <= PreConnectProxySvrHandler.cpp
+  [armeabi] Compile++ thumb: orayservice_sdk <= OrayPluginInterfaceMP.cpp
+  In file included from F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../common/phstream/SSLStream.h:11:0,
+                   from F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../public/OrayPluginInterface/TCPConnector.h:8,
+                   from F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../public/OrayPluginInterface/ConnectorRaw.h:21,
+                   from F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../public/OrayPluginInterfaceMP/OrayPluginInterfaceMP.cpp:7:
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../../../3rd/polarssl-1.3.9/include/polarssl/compat-1.2.h:53:2: warning: #warning "You can disable these warnings by commenting SHOW_PROTOTYPE_CHANGE_WARNINGS in compat-1.2.h" [-Wcpp]
+   #warning "You can disable these warnings by commenting SHOW_PROTOTYPE_CHANGE_WARNINGS in compat-1.2.h"
+    ^
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../../../3rd/polarssl-1.3.9/include/polarssl/compat-1.2.h:156:2: warning: #warning "cipher_reset() prototype changed. Manual change required if used" [-Wcpp]
+   #warning "cipher_reset() prototype changed. Manual change required if used"
+    ^
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../../../3rd/polarssl-1.3.9/include/polarssl/compat-1.2.h:171:2: warning: #warning "rsa_pkcs1_verify() prototype changed. Manual change required if used" [-Wcpp]
+   #warning "rsa_pkcs1_verify() prototype changed. Manual change required if used"
+    ^
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../../../3rd/polarssl-1.3.9/include/polarssl/compat-1.2.h:172:2: warning: #warning "rsa_pkcs1_decrypt() prototype changed. Manual change required if used" [-Wcpp]
+   #warning "rsa_pkcs1_decrypt() prototype changed. Manual change required if used"
+    ^
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../../../3rd/polarssl-1.3.9/include/polarssl/compat-1.2.h:178:2: warning: #warning "dhm_calc_secret() prototype changed. Manual change required if used" [-Wcpp]
+   #warning "dhm_calc_secret() prototype changed. Manual change required if used"
+    ^
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../../../3rd/polarssl-1.3.9/include/polarssl/compat-1.2.h:184:2: warning: #warning "gcm_init() prototype changed. Manual change required if used" [-Wcpp]
+   #warning "gcm_init() prototype changed. Manual change required if used"
+    ^
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../../../3rd/polarssl-1.3.9/include/polarssl/compat-1.2.h:190:2: warning: #warning "ssl_set_own_cert() prototype changed. Change to ssl_set_own_cert_rsa(). Manual change required if used" [-Wcpp]
+   #warning "ssl_set_own_cert() prototype changed. Change to ssl_set_own_cert_rsa(). Manual change required if used"
+    ^
+  [armeabi] Compile++ thumb: orayservice_sdk <= AcceptorImpl.cpp
+  [armeabi] Compile++ thumb: orayservice_sdk <= AcceptorRaw.cpp
+  In file included from F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../common/phstream/SSLStream.h:11:0,
+                   from F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../public/OrayPluginInterface/AcceptorRaw.cpp:30:
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../../../3rd/polarssl-1.3.9/include/polarssl/compat-1.2.h:53:2: warning: #warning "You can disable these warnings by commenting SHOW_PROTOTYPE_CHANGE_WARNINGS in compat-1.2.h" [-Wcpp]
+   #warning "You can disable these warnings by commenting SHOW_PROTOTYPE_CHANGE_WARNINGS in compat-1.2.h"
+    ^
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../../../3rd/polarssl-1.3.9/include/polarssl/compat-1.2.h:156:2: warning: #warning "cipher_reset() prototype changed. Manual change required if used" [-Wcpp]
+   #warning "cipher_reset() prototype changed. Manual change required if used"
+    ^
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../../../3rd/polarssl-1.3.9/include/polarssl/compat-1.2.h:171:2: warning: #warning "rsa_pkcs1_verify() prototype changed. Manual change required if used" [-Wcpp]
+   #warning "rsa_pkcs1_verify() prototype changed. Manual change required if used"
+    ^
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../../../3rd/polarssl-1.3.9/include/polarssl/compat-1.2.h:172:2: warning: #warning "rsa_pkcs1_decrypt() prototype changed. Manual change required if used" [-Wcpp]
+   #warning "rsa_pkcs1_decrypt() prototype changed. Manual change required if used"
+    ^
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../../../3rd/polarssl-1.3.9/include/polarssl/compat-1.2.h:178:2: warning: #warning "dhm_calc_secret() prototype changed. Manual change required if used" [-Wcpp]
+   #warning "dhm_calc_secret() prototype changed. Manual change required if used"
+    ^
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../../../3rd/polarssl-1.3.9/include/polarssl/compat-1.2.h:184:2: warning: #warning "gcm_init() prototype changed. Manual change required if used" [-Wcpp]
+   #warning "gcm_init() prototype changed. Manual change required if used"
+    ^
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../../../3rd/polarssl-1.3.9/include/polarssl/compat-1.2.h:190:2: warning: #warning "ssl_set_own_cert() prototype changed. Change to ssl_set_own_cert_rsa(). Manual change required if used" [-Wcpp]
+   #warning "ssl_set_own_cert() prototype changed. Change to ssl_set_own_cert_rsa(). Manual change required if used"
+    ^
+  [armeabi] Compile++ thumb: orayservice_sdk <= ConnectorRaw.cpp
+  In file included from F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../common/phstream/SSLStream.h:11:0,
+                   from F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../public/OrayPluginInterface/TCPConnector.h:8,
+                   from F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../public/OrayPluginInterface/ConnectorRaw.h:21,
+                   from F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../public/OrayPluginInterface/ConnectorRaw.cpp:2:
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../../../3rd/polarssl-1.3.9/include/polarssl/compat-1.2.h:53:2: warning: #warning "You can disable these warnings by commenting SHOW_PROTOTYPE_CHANGE_WARNINGS in compat-1.2.h" [-Wcpp]
+   #warning "You can disable these warnings by commenting SHOW_PROTOTYPE_CHANGE_WARNINGS in compat-1.2.h"
+    ^
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../../../3rd/polarssl-1.3.9/include/polarssl/compat-1.2.h:156:2: warning: #warning "cipher_reset() prototype changed. Manual change required if used" [-Wcpp]
+   #warning "cipher_reset() prototype changed. Manual change required if used"
+    ^
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../../../3rd/polarssl-1.3.9/include/polarssl/compat-1.2.h:171:2: warning: #warning "rsa_pkcs1_verify() prototype changed. Manual change required if used" [-Wcpp]
+   #warning "rsa_pkcs1_verify() prototype changed. Manual change required if used"
+    ^
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../../../3rd/polarssl-1.3.9/include/polarssl/compat-1.2.h:172:2: warning: #warning "rsa_pkcs1_decrypt() prototype changed. Manual change required if used" [-Wcpp]
+   #warning "rsa_pkcs1_decrypt() prototype changed. Manual change required if used"
+    ^
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../../../3rd/polarssl-1.3.9/include/polarssl/compat-1.2.h:178:2: warning: #warning "dhm_calc_secret() prototype changed. Manual change required if used" [-Wcpp]
+   #warning "dhm_calc_secret() prototype changed. Manual change required if used"
+    ^
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../../../3rd/polarssl-1.3.9/include/polarssl/compat-1.2.h:184:2: warning: #warning "gcm_init() prototype changed. Manual change required if used" [-Wcpp]
+   #warning "gcm_init() prototype changed. Manual change required if used"
+    ^
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../../../3rd/polarssl-1.3.9/include/polarssl/compat-1.2.h:190:2: warning: #warning "ssl_set_own_cert() prototype changed. Change to ssl_set_own_cert_rsa(). Manual change required if used" [-Wcpp]
+   #warning "ssl_set_own_cert() prototype changed. Change to ssl_set_own_cert_rsa(). Manual change required if used"
+    ^
+  [armeabi] Compile++ thumb: orayservice_sdk <= ProxySettingRaw.cpp
+  [armeabi] Compile++ thumb: orayservice_sdk <= SessionItemRaw.cpp
+  [armeabi] Compile++ thumb: orayservice_sdk <= ClientAcceptor.cpp
+  [armeabi] Compile++ thumb: orayservice_sdk <= ClientStream.cpp
+  In file included from F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../common/phstream/SSLStream.h:11:0,
+                   from F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../public/OrayPluginInterface/TCPConnector.h:8,
+                   from F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../public/OrayPluginInterface/ConnectorRaw.h:21,
+                   from F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../public/OrayPluginInterface/ClientStream.cpp:3:
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../../../3rd/polarssl-1.3.9/include/polarssl/compat-1.2.h:53:2: warning: #warning "You can disable these warnings by commenting SHOW_PROTOTYPE_CHANGE_WARNINGS in compat-1.2.h" [-Wcpp]
+   #warning "You can disable these warnings by commenting SHOW_PROTOTYPE_CHANGE_WARNINGS in compat-1.2.h"
+    ^
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../../../3rd/polarssl-1.3.9/include/polarssl/compat-1.2.h:156:2: warning: #warning "cipher_reset() prototype changed. Manual change required if used" [-Wcpp]
+   #warning "cipher_reset() prototype changed. Manual change required if used"
+    ^
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../../../3rd/polarssl-1.3.9/include/polarssl/compat-1.2.h:171:2: warning: #warning "rsa_pkcs1_verify() prototype changed. Manual change required if used" [-Wcpp]
+   #warning "rsa_pkcs1_verify() prototype changed. Manual change required if used"
+    ^
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../../../3rd/polarssl-1.3.9/include/polarssl/compat-1.2.h:172:2: warning: #warning "rsa_pkcs1_decrypt() prototype changed. Manual change required if used" [-Wcpp]
+   #warning "rsa_pkcs1_decrypt() prototype changed. Manual change required if used"
+    ^
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../../../3rd/polarssl-1.3.9/include/polarssl/compat-1.2.h:178:2: warning: #warning "dhm_calc_secret() prototype changed. Manual change required if used" [-Wcpp]
+   #warning "dhm_calc_secret() prototype changed. Manual change required if used"
+    ^
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../../../3rd/polarssl-1.3.9/include/polarssl/compat-1.2.h:184:2: warning: #warning "gcm_init() prototype changed. Manual change required if used" [-Wcpp]
+   #warning "gcm_init() prototype changed. Manual change required if used"
+    ^
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../../../3rd/polarssl-1.3.9/include/polarssl/compat-1.2.h:190:2: warning: #warning "ssl_set_own_cert() prototype changed. Change to ssl_set_own_cert_rsa(). Manual change required if used" [-Wcpp]
+   #warning "ssl_set_own_cert() prototype changed. Change to ssl_set_own_cert_rsa(). Manual change required if used"
+    ^
+  [armeabi] Compile++ thumb: orayservice_sdk <= DecideClient.cpp
+  [armeabi] Compile++ thumb: orayservice_sdk <= GetRemoteAddress.cpp
+  In file included from F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../common/phstream/SSLStream.h:11:0,
+                   from F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../public/OrayPluginInterface/TCPConnector.h:8,
+                   from F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../public/OrayPluginInterface/ConnectorRaw.h:21,
+                   from F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../public/OrayPluginInterface/GetRemoteAddress.cpp:14:
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../../../3rd/polarssl-1.3.9/include/polarssl/compat-1.2.h:53:2: warning: #warning "You can disable these warnings by commenting SHOW_PROTOTYPE_CHANGE_WARNINGS in compat-1.2.h" [-Wcpp]
+   #warning "You can disable these warnings by commenting SHOW_PROTOTYPE_CHANGE_WARNINGS in compat-1.2.h"
+    ^
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../../../3rd/polarssl-1.3.9/include/polarssl/compat-1.2.h:156:2: warning: #warning "cipher_reset() prototype changed. Manual change required if used" [-Wcpp]
+   #warning "cipher_reset() prototype changed. Manual change required if used"
+    ^
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../../../3rd/polarssl-1.3.9/include/polarssl/compat-1.2.h:171:2: warning: #warning "rsa_pkcs1_verify() prototype changed. Manual change required if used" [-Wcpp]
+   #warning "rsa_pkcs1_verify() prototype changed. Manual change required if used"
+    ^
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../../../3rd/polarssl-1.3.9/include/polarssl/compat-1.2.h:172:2: warning: #warning "rsa_pkcs1_decrypt() prototype changed. Manual change required if used" [-Wcpp]
+   #warning "rsa_pkcs1_decrypt() prototype changed. Manual change required if used"
+    ^
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../../../3rd/polarssl-1.3.9/include/polarssl/compat-1.2.h:178:2: warning: #warning "dhm_calc_secret() prototype changed. Manual change required if used" [-Wcpp]
+   #warning "dhm_calc_secret() prototype changed. Manual change required if used"
+    ^
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../../../3rd/polarssl-1.3.9/include/polarssl/compat-1.2.h:184:2: warning: #warning "gcm_init() prototype changed. Manual change required if used" [-Wcpp]
+   #warning "gcm_init() prototype changed. Manual change required if used"
+    ^
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../../../3rd/polarssl-1.3.9/include/polarssl/compat-1.2.h:190:2: warning: #warning "ssl_set_own_cert() prototype changed. Change to ssl_set_own_cert_rsa(). Manual change required if used" [-Wcpp]
+   #warning "ssl_set_own_cert() prototype changed. Change to ssl_set_own_cert_rsa(). Manual change required if used"
+    ^
+  [armeabi] Compile++ thumb: orayservice_sdk <= HostStream.cpp
+  [armeabi] Compile++ thumb: orayservice_sdk <= PretreatHandler.cpp
+  [armeabi] Compile++ thumb: orayservice_sdk <= StreamInfoImplHandler.cpp
+  [armeabi] Compile++ thumb: orayservice_sdk <= TCPAcceptor.cpp
+  In file included from F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../common/phstream/SSLStream.h:11:0,
+                   from F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../public/OrayPluginInterface/TCPAcceptor.cpp:5:
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../../../3rd/polarssl-1.3.9/include/polarssl/compat-1.2.h:53:2: warning: #warning "You can disable these warnings by commenting SHOW_PROTOTYPE_CHANGE_WARNINGS in compat-1.2.h" [-Wcpp]
+   #warning "You can disable these warnings by commenting SHOW_PROTOTYPE_CHANGE_WARNINGS in compat-1.2.h"
+    ^
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../../../3rd/polarssl-1.3.9/include/polarssl/compat-1.2.h:156:2: warning: #warning "cipher_reset() prototype changed. Manual change required if used" [-Wcpp]
+   #warning "cipher_reset() prototype changed. Manual change required if used"
+    ^
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../../../3rd/polarssl-1.3.9/include/polarssl/compat-1.2.h:171:2: warning: #warning "rsa_pkcs1_verify() prototype changed. Manual change required if used" [-Wcpp]
+   #warning "rsa_pkcs1_verify() prototype changed. Manual change required if used"
+    ^
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../../../3rd/polarssl-1.3.9/include/polarssl/compat-1.2.h:172:2: warning: #warning "rsa_pkcs1_decrypt() prototype changed. Manual change required if used" [-Wcpp]
+   #warning "rsa_pkcs1_decrypt() prototype changed. Manual change required if used"
+    ^
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../../../3rd/polarssl-1.3.9/include/polarssl/compat-1.2.h:178:2: warning: #warning "dhm_calc_secret() prototype changed. Manual change required if used" [-Wcpp]
+   #warning "dhm_calc_secret() prototype changed. Manual change required if used"
+    ^
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../../../3rd/polarssl-1.3.9/include/polarssl/compat-1.2.h:184:2: warning: #warning "gcm_init() prototype changed. Manual change required if used" [-Wcpp]
+   #warning "gcm_init() prototype changed. Manual change required if used"
+    ^
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../../../3rd/polarssl-1.3.9/include/polarssl/compat-1.2.h:190:2: warning: #warning "ssl_set_own_cert() prototype changed. Change to ssl_set_own_cert_rsa(). Manual change required if used" [-Wcpp]
+   #warning "ssl_set_own_cert() prototype changed. Change to ssl_set_own_cert_rsa(). Manual change required if used"
+    ^
+  [armeabi] Compile++ thumb: orayservice_sdk <= TCPConnector.cpp
+  In file included from F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../common/phstream/SSLStream.h:11:0,
+                   from F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../public/OrayPluginInterface/TCPConnector.h:8,
+                   from F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../public/OrayPluginInterface/TCPConnector.cpp:8:
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../../../3rd/polarssl-1.3.9/include/polarssl/compat-1.2.h:53:2: warning: #warning "You can disable these warnings by commenting SHOW_PROTOTYPE_CHANGE_WARNINGS in compat-1.2.h" [-Wcpp]
+   #warning "You can disable these warnings by commenting SHOW_PROTOTYPE_CHANGE_WARNINGS in compat-1.2.h"
+    ^
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../../../3rd/polarssl-1.3.9/include/polarssl/compat-1.2.h:156:2: warning: #warning "cipher_reset() prototype changed. Manual change required if used" [-Wcpp]
+   #warning "cipher_reset() prototype changed. Manual change required if used"
+    ^
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../../../3rd/polarssl-1.3.9/include/polarssl/compat-1.2.h:171:2: warning: #warning "rsa_pkcs1_verify() prototype changed. Manual change required if used" [-Wcpp]
+   #warning "rsa_pkcs1_verify() prototype changed. Manual change required if used"
+    ^
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../../../3rd/polarssl-1.3.9/include/polarssl/compat-1.2.h:172:2: warning: #warning "rsa_pkcs1_decrypt() prototype changed. Manual change required if used" [-Wcpp]
+   #warning "rsa_pkcs1_decrypt() prototype changed. Manual change required if used"
+    ^
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../../../3rd/polarssl-1.3.9/include/polarssl/compat-1.2.h:178:2: warning: #warning "dhm_calc_secret() prototype changed. Manual change required if used" [-Wcpp]
+   #warning "dhm_calc_secret() prototype changed. Manual change required if used"
+    ^
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../../../3rd/polarssl-1.3.9/include/polarssl/compat-1.2.h:184:2: warning: #warning "gcm_init() prototype changed. Manual change required if used" [-Wcpp]
+   #warning "gcm_init() prototype changed. Manual change required if used"
+    ^
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../../../3rd/polarssl-1.3.9/include/polarssl/compat-1.2.h:190:2: warning: #warning "ssl_set_own_cert() prototype changed. Change to ssl_set_own_cert_rsa(). Manual change required if used" [-Wcpp]
+   #warning "ssl_set_own_cert() prototype changed. Change to ssl_set_own_cert_rsa(). Manual change required if used"
+    ^
+  [armeabi] Compile++ thumb: orayservice_sdk <= UDPAcceptor.cpp
+  [armeabi] Compile++ thumb: orayservice_sdk <= UDPConnector.cpp
+  [armeabi] Compile++ thumb: orayservice_sdk <= ReconnectHandler.cpp
+  In file included from F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../common/phstream/SSLStream.h:11:0,
+                   from F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../public/OrayPluginInterface/TCPConnector.h:8,
+                   from F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../public/OrayPluginInterface/ConnectorRaw.h:21,
+                   from F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../public/OrayPluginInterface/ReconnectHandler.cpp:14:
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../../../3rd/polarssl-1.3.9/include/polarssl/compat-1.2.h:53:2: warning: #warning "You can disable these warnings by commenting SHOW_PROTOTYPE_CHANGE_WARNINGS in compat-1.2.h" [-Wcpp]
+   #warning "You can disable these warnings by commenting SHOW_PROTOTYPE_CHANGE_WARNINGS in compat-1.2.h"
+    ^
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../../../3rd/polarssl-1.3.9/include/polarssl/compat-1.2.h:156:2: warning: #warning "cipher_reset() prototype changed. Manual change required if used" [-Wcpp]
+   #warning "cipher_reset() prototype changed. Manual change required if used"
+    ^
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../../../3rd/polarssl-1.3.9/include/polarssl/compat-1.2.h:171:2: warning: #warning "rsa_pkcs1_verify() prototype changed. Manual change required if used" [-Wcpp]
+   #warning "rsa_pkcs1_verify() prototype changed. Manual change required if used"
+    ^
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../../../3rd/polarssl-1.3.9/include/polarssl/compat-1.2.h:172:2: warning: #warning "rsa_pkcs1_decrypt() prototype changed. Manual change required if used" [-Wcpp]
+   #warning "rsa_pkcs1_decrypt() prototype changed. Manual change required if used"
+    ^
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../../../3rd/polarssl-1.3.9/include/polarssl/compat-1.2.h:178:2: warning: #warning "dhm_calc_secret() prototype changed. Manual change required if used" [-Wcpp]
+   #warning "dhm_calc_secret() prototype changed. Manual change required if used"
+    ^
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../../../3rd/polarssl-1.3.9/include/polarssl/compat-1.2.h:184:2: warning: #warning "gcm_init() prototype changed. Manual change required if used" [-Wcpp]
+   #warning "gcm_init() prototype changed. Manual change required if used"
+    ^
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/../../../../../../../../../../../3rd/polarssl-1.3.9/include/polarssl/compat-1.2.h:190:2: warning: #warning "ssl_set_own_cert() prototype changed. Change to ssl_set_own_cert_rsa(). Manual change required if used" [-Wcpp]
+   #warning "ssl_set_own_cert() prototype changed. Change to ssl_set_own_cert_rsa(). Manual change required if used"
+    ^
+  [armeabi] Compile++ thumb: orayservice_sdk <= Bigbit.cpp
+  [armeabi] Compile++ thumb: orayservice_sdk <= crypto.cpp
+  [armeabi] Compile++ thumb: orayservice_sdk <= udpstack.cpp
+  [armeabi] Compile++ thumb: orayservice_sdk <= AndroidAcceptor.cpp
+  [armeabi] Compile++ thumb: orayservice_sdk <= ClientServiceSDK.cpp
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/./ClientServiceSDK.cpp: In member function 'virtual bool CAcceptorEvent::OnLogFailed()':
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/./ClientServiceSDK.cpp:52:36: warning: invalid conversion from 'int' to 'CONNECTOR_STATE {aka _CONNECTOR_STATE}' [-fpermissive]
+    return 0 == mOuter->OnEvent(100, 0);
+                                      ^
+  In file included from F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/./ClientServiceSDK.cpp:1:0:
+  F:/oray/c/branches/src/sunlogin/client/android/ScreenCaptureDemo/app/src/main/jni/libservicesdk/./ClientServiceSDK.h:96:15: note: initializing argument 1 of 'virtual long int CClientServiceSDK::OnEvent(CONNECTOR_STATE, long int)'
+    virtual long OnEvent(CONNECTOR_STATE state, long hr);
+                 ^
+  [armeabi] Compile++ thumb: orayservice_sdk <= com_oray_sunlogin_servicesdk_jni_ClientServiceSDK.cpp
+  [armeabi] SharedLibrary  : liborayservice_sdk.so
+  [armeabi] Install        : liborayservice_sdk.so => libs/armeabi/liborayservice_sdk.so
+  [armeabi] Install        : libgnustl_shared.so => libs/armeabi/libgnustl_shared.so
